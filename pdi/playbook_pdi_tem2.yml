@@ -1,0 +1,26 @@
+---
+ - name   : Copy DB from Prom to pdi
+   hosts  : df_prom_db01
+   become : yes
+   gather_facts: True
+
+   tasks:
+    - name  : Get date
+      shell : echo {{ ansible_date_time.date }}_{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }}
+      register : date
+      
+    - name  : Make file
+      shell : echo -n backup_ffoms_demo_{{ date.stdout }} > /u01/backup/backup_name
+      become_user : postgres
+      
+    - name  : Read file
+      shell : cat /u01/backup/backup_name
+      
+
+#    - name  : Dump DB
+#      shell : pg_dump -h localhost -p 5432 -U postgres -F c -b -v -f /u01/backup/backup_ffoms_demo_{{ date.stdout }} ffoms_demo
+#      become_user : postgres
+
+#    - name  : Copy dump to df-pdi-db01
+#      shell : scp /u01/backup/backup_ffoms_demo_{{ date.stdout }} root@10.255.82.87:/u01/postgres/
+

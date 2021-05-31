@@ -1,0 +1,9 @@
+---
+- name: 'Stop ETD services'
+  systemd:
+    name: "{{ item }}"
+    state: stopped
+  with_items:
+    - etd
+
+

@@ -1,0 +1,8 @@
+[etd_qa]
+elk-qa-web01
+elk-qa-web02
+elk-qa-web03
+elk-qa-web04
+
+[all:vars]
+ansible_sudo_pass=changepass

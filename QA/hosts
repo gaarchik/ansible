@@ -1,0 +1,46 @@
+
+[df_qa_db01]
+10.255.82.69 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[df_qa_db02]
+10.255.82.70 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[df_prom_db01]
+10.255.82.36 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[df_demo_db01]
+10.255.82.61 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[win_servers_demo]
+df-demo-balancer ansible_host=10.255.82.60
+
+[win_servers_demo:vars]
+ansible_user=Administrator
+ansible_password=Qwerty123!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+[win_servers_qa]
+df-qa-web-share ansible_host=10.255.82.113
+
+[win_servers_qa:vars]
+ansible_user=Administrator
+ansible_password=Qwerty123!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+[pdi]
+df-pdi-web01 ansible_host=10.255.82.83
+
+[pdi:vars]
+ansible_user=Administrator
+ansible_password=Qwerty123!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+
+[all:vars]
+ansible_sudo_pass=changepass

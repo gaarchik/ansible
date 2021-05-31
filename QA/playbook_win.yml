@@ -1,0 +1,6 @@
+---
+ - name: test WinRM
+   hosts  : win_servers
+   tasks:
+    - name: test WinRM
+      win_shell: D:\START_IIS_DOMS.ps1

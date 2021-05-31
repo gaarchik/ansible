@@ -1,0 +1,70 @@
+---
+ - name   : Copy DB from Prom to QA
+   hosts  : df_prom_db01
+   become : yes
+   gather_facts: True
+
+   tasks:
+    - name  : Get date
+      shell : echo {{ ansible_date_time.date }}_{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }}
+      register : date
+    - name  : Make file backup_name
+      shell : echo -n backup_ffoms_demo_{{ date.stdout }} > /u01/backup/backup_name
+      become_user : postgres
+    - name  : Dump DB
+      shell : pg_dump -h localhost -p 5432 -U postgres -F c -b -v -f /u01/backup/backup_ffoms_demo_{{ date.stdout }} ffoms_demo
+      become_user : postgres
+
+    - name  : Copy dump to df-qa-db01
+      shell : |
+             scp /u01/backup/backup_name foms1@10.255.82.69:/u01/postgres/backup
+             scp /u01/backup/backup_ffoms_demo_{{ date.stdout }} foms1@10.255.82.69:/u01/postgres/backup/
+ - name: Stop IIS df-qa-web01
+   hosts  : win_servers_qa
+   tasks:
+    - name: test WinRM
+      win_shell: D:\STOP_IIS_DOMS.ps1
+
+
+ - name   : Restore DB from dump
+   hosts  : df_qa_db01
+   become : yes
+   gather_facts: True
+
+   tasks:
+    - name  : Drop n create DB ffoms_demo
+      shell : psql -f /u01/drop_n_create_db.sql
+      become_user : postgres
+
+    - name  : Create extensions on DB ffoms_demo
+      shell : psql -f /u01/create_extensions.sql ffoms_demo
+      become_user : postgres
+
+    - name  : Get name of new dump
+      shell : cat /u01/postgres/backup/backup_name
+#        cd /u01/postgres/ 
+#        ls | grep {{ ansible_date_time.date }}_{{ ansible_date_time.hour }}
+      register: dump
+      become_user : postgres
+
+    - name  : Change own
+      shell : chown postgres:postgres /u01/postgres/backup/{{ dump.stdout}}
+
+    - name  : Restore dump file
+      shell: pg_restore -d ffoms_demo /u01/postgres/backup/{{ dump.stdout}} -j 25 >/u01/postgres/backup/restore_ffoms_demo_{{ ansible_date_time.date }}_{{ ansible_date_time.hour }}.txt 2>&1
+      become_user : postgres
+
+ - name: Start IIS df-qa-web01
+   hosts  : win_servers_qa
+   tasks:
+    - name: test WinRM
+      win_shell: D:\START_IIS_DOMS.ps1
+
+ - name   : END
+   hosts  : df_qa_db01
+   become : yes
+   
+   tasks:
+    - name  : END
+      shell : cat /u01/end_file
+

@@ -1,0 +1,12 @@
+[etd]
+elk-prom-web01
+elk-prom-web02
+elk-prom-web03
+elk-prom-web04
+elk-prom-web05
+elk-prom-web06
+elk-prom-web07
+elk-prom-web08
+
+[all:vars]
+ansible_sudo_pass=changepass

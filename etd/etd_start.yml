@@ -1,0 +1,9 @@
+- name: Start ETD
+  hosts: etd
+  remote_user: ansible
+  become: yes
+  become_method: sudo
+  roles:
+    - role: etd_start
+      become_user: root
+

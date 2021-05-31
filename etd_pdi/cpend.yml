@@ -1,0 +1,14 @@
+---
+ - name   : Test connection to my servers
+   hosts  : all
+   become : yes
+   
+
+   tasks  :
+    
+   - name : cp in clusters
+     copy : 
+           src=/u01/ansible/QA/end 
+           dest=/u01/
+   
+...

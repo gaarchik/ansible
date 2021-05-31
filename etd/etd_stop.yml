@@ -1,0 +1,9 @@
+- name: Stop ETD
+  hosts: etd
+  remote_user: ansible
+  become: yes
+  become_method: sudo
+  roles:
+    - role: etd_stop
+      become_user: root
+

@@ -1,0 +1,7 @@
+---
+- name: 'Start ETD services'
+  systemd:
+    name: "{{ item }}"
+    state: started
+  with_items:
+    - etd

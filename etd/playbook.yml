@@ -1,0 +1,31 @@
+---
+ - name   : Test connection to my servers
+   hosts  : all
+   become : yes 
+
+   tasks   :
+   
+   - name : stop etd
+     shell: systemctl stop etd
+  
+   - name : backup
+     shell: cp -R  /u01/portal/etc /u01/portal/etc3009
+ 
+   - name : cp in clusters
+     copy : 
+           src=files/etd/elk-portal.jar 
+           dest=/u01/portal/
+   
+   - name : start etd
+     shell: systemctl start etd
+
+   - name : sleep
+     shell: sleep 180
+
+   - name : Testing my servers
+     shell: netstat -ntlp|grep 8080   
+
+   - name  : END
+     shell : cat /u01/end
+
+...

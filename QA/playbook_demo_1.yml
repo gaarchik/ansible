@@ -1,0 +1,19 @@
+---
+ - name   : Copy DB from Prom to QA
+   hosts  : df_prom_db01
+   become : yes
+   gather_facts: True
+
+   tasks:
+    - name  : Get date
+      shell : echo {{ ansible_date_time.date }}_{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }}
+      register : date
+
+ - name   : Restore DB from dump
+   hosts  : df_demo_db01
+   become : yes
+   gather_facts: True
+
+   tasks:
+    - name  : print
+      shell : echo {{ date.stdout}}

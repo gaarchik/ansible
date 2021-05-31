@@ -1,0 +1,9 @@
+
+[etd_pdi]
+elk-pdi-web01 ansible_host=10.255.83.74 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+elk-pdi-web02 ansible_host=10.255.83.75 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+elk-pdi-web03 ansible_host=10.255.83.76 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+elk-pdi-web04 ansible_host=10.255.83.77 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[all:vars]
+ansible_sudo_pass=changepass

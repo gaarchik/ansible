@@ -1,0 +1,10 @@
+---
+ - name   : Restart DB service 
+   hosts  : df_pdi_db02
+   become : yes
+   gather_facts: True
+
+   tasks:
+    - name  : Drop n create DB ffoms_demo
+      shell : /usr/pgsql-12/bin/pg_ctl -D /u01/postgres restart
+      become_user : postgres

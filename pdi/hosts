@@ -1,0 +1,95 @@
+[etd_qa]
+elk-qa-web01
+elk-qa-web02
+elk-qa-web03
+elk-qa-web04
+
+[moodle_app]
+elk-qa-moodle1
+elk-qa-moodle2
+elk-qa-moodle3
+elk-qa-moodle4
+
+[moodle_db_master]
+elk-qa-moodle-db01
+
+[moodle_db_standby]
+elk-qa-moodle-db02
+
+[bbb]
+elk-qa-bbb1
+
+[jira_db_master]
+jira-qa-db01
+
+[jira_db_standby]
+jira-qa-db02
+
+[jira_app]
+jira-qa-as01
+
+[jii_master]
+elk-qa-haproxy01
+elk-qa-db01
+elk-qa-log
+elk-qa-monitor
+
+[blackbox]
+elk-qa-web01
+elk-qa-web02
+elk-qa-web03
+elk-qa-web04
+
+[df_qa_db01]
+10.255.82.69 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[df_qa_db02]
+10.255.82.70 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[df_prom_db01]
+10.255.82.36 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[df_demo_db01]
+10.255.82.61 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[win_servers_demo]
+df-demo-balancer ansible_host=10.255.82.60
+
+[df_pdi_db]
+df-pdi-db ansible_host=10.255.82.88
+
+[win_servers_demo:vars]
+ansible_user=Administrator
+ansible_password=Qwerty123!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+[win_servers_qa]
+df-qa-web-share ansible_host=10.255.82.113
+
+[win_servers_qa:vars]
+ansible_user=Administrator
+ansible_password=Qwerty123!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+[pdi]
+df-pdi-web01  ansible_host=10.255.82.83
+
+[pdi:vars]
+ansible_user=Administrator
+ansible_password=Qwerty123!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+[df_pdi_db01]
+10.255.82.87 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[df_pdi_db02]
+10.255.82.88 ansible_ssh_pass=changepass ansible_ssh_user=foms1
+
+[all:vars]
+ansible_sudo_pass=changepass

@@ -1,0 +1,16 @@
+---
+ - name   : Test connection to my servers
+   hosts  : all
+   become : yes
+   
+
+   tasks  :
+   - name : Testing my servers
+     shell: netstat -ntlp|grep 8080
+
+   tasks  :
+   - name : Testing my servers
+     shell: df -h
+
+
+...

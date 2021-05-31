@@ -1,0 +1,20 @@
+---
+ - name   : Test connection to my servers
+   hosts  : all
+   become : yes
+   
+
+   tasks  :
+    
+   - name : stop etd
+     shell: systemctl stop etd
+   
+   - name : start etd
+     shell: systemctl start etd
+
+   - name : sleep
+     shell: sleep 300
+
+   - name : Testing my servers
+     shell: netstat -ntlp|grep 8080
+...
