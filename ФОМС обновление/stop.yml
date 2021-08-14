@@ -1,0 +1,7 @@
+--- 
+- name: stop IIS
+  win_service : 
+   name      : W3SVC
+   state     : stop
+
+

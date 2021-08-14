@@ -1,0 +1,8 @@
+---
+ - name : cp in clusters
+   win_copy : 
+         src=files/
+         dest=E:/web/ffoms_test
+
+
+

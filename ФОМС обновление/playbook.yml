@@ -1,0 +1,9 @@
+---
+ - name: test
+   hosts: all
+   tasks:
+   - include: stop.yml
+   
+   - include_tasks: copy.yml
+   
+   - include: start.yml

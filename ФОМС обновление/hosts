@@ -1,0 +1,14 @@
+[win_servers_qa]
+df-prom-web01 ansible_host=10.255.82.30
+df-prom-web02 ansible_host=10.255.82.31
+df-prom-web03 ansible_host=10.255.82.32
+df-prom-web04 ansible_host=10.255.82.33
+df-prom-web05 ansible_host=10.255.82.34
+df-prom-web06 ansible_host=10.255.82.35
+
+[win_servers_qa:vars]
+ansible_user=Administrator
+ansible_password=Qwerty123!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
