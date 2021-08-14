@@ -42,8 +42,6 @@
 
     - name  : Get name of new dump
       shell : cat /u01/postgres/backup/backup_name
-#        cd /u01/postgres/ 
-#        ls | grep {{ ansible_date_time.date }}_{{ ansible_date_time.hour }}
       register: dump
       become_user : postgres
 
