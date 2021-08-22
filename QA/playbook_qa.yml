@@ -15,10 +15,10 @@
       shell : pg_dump -h localhost -p 5432 -U postgres -F c -b -v -f /u01/backup/backup_ffoms_demo_{{ date.stdout }} ffoms_demo
       become_user : postgres
 
-    - name  : Copy dump to df-qa-db01
-      shell : |
-             scp /u01/backup/backup_name foms1@10.255.82.69:/u01/postgres/backup
-             scp /u01/backup/backup_ffoms_demo_{{ date.stdout }} foms1@10.255.82.69:/u01/postgres/backup/
+   # - name  : Copy dump to df-qa-db01
+   #   shell : |
+   #          scp /u01/backup/backup_name foms1@10.255.82.69:/u01/postgres/backup
+   #          scp /u01/backup/backup_ffoms_demo_{{ date.stdout }} foms1@10.255.82.69:/u01/postgres/backup/
  - name: Stop IIS df-qa-web01
    hosts  : win_servers_qa
    tasks:
