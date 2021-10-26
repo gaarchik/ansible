@@ -1,0 +1,662 @@
+2021-08-14 11:18:40,249 p=126705 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:18:40,549 p=126705 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name  : unzip
+   shell : unzip /u01/ansible/doms_qa/files/update_ansible/‘*.zip’
+         ^ here
+
+2021-08-14 11:19:21,080 p=127040 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:19:21,381 p=127040 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name  : unzip
+   shell : unzip unzip /u01/ansible/doms_qa/files/update_ansible/‘*.zip’
+         ^ here
+
+2021-08-14 11:19:34,042 p=127158 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:19:34,325 p=127158 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name  : unzip
+   shell : unzip unzip /u01/ansible/doms_qa/files/update_ansible/‘*.zip’
+         ^ here
+
+2021-08-14 11:20:21,538 p=127548 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:20:21,825 p=127548 u=root n=ansible | ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - name  : unzip
+   ^ here
+
+2021-08-14 11:21:01,186 p=127876 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:21:01,483 p=127876 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 3, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+ - name  : unzip
+    shell : unzip unzip /u01/ansible/doms_qa/files/update_ansible/‘*.zip’
+          ^ here
+
+2021-08-14 11:21:36,446 p=128171 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:21:36,720 p=128171 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 3, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+ - name   : unzip1
+    shell : unzip unzip /u01/ansible/doms_qa/files/update_ansible/‘*.zip’
+          ^ here
+
+2021-08-14 11:23:20,876 p=129018 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:23:21,154 p=129018 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 3, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+ - name   : unzip1
+    shell : unzip /u01/ansible/doms_qa/files/update_ansible/*.zip -d /u01/ansible/doms_qa/files/update_ansible/
+          ^ here
+
+2021-08-14 11:24:29,302 p=129874 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:24:29,593 p=129874 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+ - name   : unzip
+    shell: unzip  /u01/ansible/doms_qa/files/update_ansible/*.zip -d /u01/ansible/doms_qa/files/update_ansible/
+         ^ here
+
+2021-08-14 11:25:25,692 p=130774 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:25:26,003 p=130774 u=root n=ansible | ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - name   : unzip
+   ^ here
+
+2021-08-14 11:26:12,918 p=770 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:26:13,235 p=770 u=root n=ansible | ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - name  : unzip
+   ^ here
+
+2021-08-14 11:26:25,035 p=1011 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:26:25,316 p=1011 u=root n=ansible | ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - name  : unzip
+   ^ here
+
+2021-08-14 11:28:36,412 p=3138 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:28:36,798 p=3138 u=root n=ansible | PLAY [test] *******************************************************************************************************************************************
+2021-08-14 11:28:36,814 p=3138 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 11:28:56,387 p=3138 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 11:28:56,813 p=3138 u=root n=ansible | ok: [df-qa-web01]
+2021-08-14 11:28:56,822 p=3138 u=root n=ansible | TASK [unzip] ******************************************************************************************************************************************
+2021-08-14 11:28:58,579 p=3138 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web01 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:28:58,579 p=3138 u=root n=ansible | fatal: [df-qa-web01]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:28:58,709 p=3138 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web02 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:28:58,710 p=3138 u=root n=ansible | fatal: [df-qa-web02]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:28:58,712 p=3138 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 11:28:58,712 p=3138 u=root n=ansible | df-qa-web01                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:28:58,712 p=3138 u=root n=ansible | df-qa-web02                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:30:17,897 p=4795 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:30:18,276 p=4795 u=root n=ansible | PLAY [test] *******************************************************************************************************************************************
+2021-08-14 11:30:18,289 p=4795 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 11:30:37,366 p=4795 u=root n=ansible | ok: [df-qa-web01]
+2021-08-14 11:30:37,515 p=4795 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 11:30:37,524 p=4795 u=root n=ansible | TASK [unzip] ******************************************************************************************************************************************
+2021-08-14 11:30:39,244 p=4795 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web01 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:30:39,244 p=4795 u=root n=ansible | fatal: [df-qa-web01]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:30:39,410 p=4795 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web02 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:30:39,411 p=4795 u=root n=ansible | fatal: [df-qa-web02]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:30:39,413 p=4795 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 11:30:39,414 p=4795 u=root n=ansible | df-qa-web01                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:30:39,414 p=4795 u=root n=ansible | df-qa-web02                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:35:34,046 p=9789 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:35:34,347 p=9789 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 5, column 18, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+ - name  : remuve zip
+   shel  : shell : rm -f *.zip
+                 ^ here
+
+2021-08-14 11:35:57,182 p=10159 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:35:57,564 p=10159 u=root n=ansible | PLAY [test] *******************************************************************************************************************************************
+2021-08-14 11:35:57,575 p=10159 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 11:36:16,801 p=10159 u=root n=ansible | ok: [df-qa-web01]
+2021-08-14 11:36:16,954 p=10159 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 11:36:16,965 p=10159 u=root n=ansible | TASK [unzip] ******************************************************************************************************************************************
+2021-08-14 11:36:18,815 p=10159 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web01 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:36:18,816 p=10159 u=root n=ansible | fatal: [df-qa-web01]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:36:18,823 p=10159 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web02 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:36:18,824 p=10159 u=root n=ansible | fatal: [df-qa-web02]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:36:18,825 p=10159 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 11:36:18,825 p=10159 u=root n=ansible | df-qa-web01                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:36:18,825 p=10159 u=root n=ansible | df-qa-web02                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:36:37,974 p=10831 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:36:38,368 p=10831 u=root n=ansible | PLAY [test] *******************************************************************************************************************************************
+2021-08-14 11:36:38,380 p=10831 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 11:36:57,340 p=10831 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 11:36:57,413 p=10831 u=root n=ansible | ok: [df-qa-web01]
+2021-08-14 11:36:57,422 p=10831 u=root n=ansible | TASK [unzip] ******************************************************************************************************************************************
+2021-08-14 11:36:59,223 p=10831 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web01 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:36:59,223 p=10831 u=root n=ansible | fatal: [df-qa-web01]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:36:59,314 p=10831 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web02 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:36:59,314 p=10831 u=root n=ansible | fatal: [df-qa-web02]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:36:59,316 p=10831 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 11:36:59,316 p=10831 u=root n=ansible | df-qa-web01                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:36:59,316 p=10831 u=root n=ansible | df-qa-web02                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:37:52,208 p=11982 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:37:52,587 p=11982 u=root n=ansible | PLAY [test] *******************************************************************************************************************************************
+2021-08-14 11:37:52,599 p=11982 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 11:38:11,681 p=11982 u=root n=ansible | ok: [df-qa-web01]
+2021-08-14 11:38:11,996 p=11982 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 11:38:12,005 p=11982 u=root n=ansible | TASK [unzip] ******************************************************************************************************************************************
+2021-08-14 11:38:13,837 p=11982 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web01 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:38:13,838 p=11982 u=root n=ansible | fatal: [df-qa-web01]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:38:13,852 p=11982 u=root n=ansible | [WARNING]: No python interpreters found for host df-qa-web02 (tried ['/usr/bin/python', 'python3.7', 'python3.6', 'python3.5', 'python2.7',
+'python2.6', '/usr/libexec/platform-python', '/usr/bin/python3', 'python'])
+
+2021-08-14 11:38:13,852 p=11982 u=root n=ansible | fatal: [df-qa-web02]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python"}, "changed": false, "module_stderr": "Exception calling \"Create\" with \"1\" argument(s): \"At line:4 char:21\r\n+ def _ansiballz_main():\r\n+                     ~\r\nAn expression was expected after '('.\r\nAt line:13 char:27\r\n+     except (AttributeError, OSError):\r\n+                           ~\r\nMissing argument in parameter list.\r\nAt line:15 char:7\r\n+     if scriptdir is not None:\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:7\r\n+     if sys.version_info < (3,):\r\n+       ~\r\nMissing '(' after 'if' in if statement.\r\nAt line:22 char:30\r\n+     if sys.version_info < (3,):\r\n+                              ~\r\nMissing expression after ','.\r\nAt line:22 char:25\r\n+     if sys.version_info < (3,):\r\n+                         ~\r\nThe '<' operator is reserved for future use.\r\nAt line:27 char:34\r\n+     def invoke_module(modlib_path, temp_path, json_params):\r\n+                                  ~\r\nMissing argument in parameter list.\r\nAt line:28 char:40\r\n+         z = zipfile.ZipFile(modlib_path, mode='a')\r\n+                                        ~\r\nMissing argument in parameter list.\r\nAt line:31 char:33\r\n+         zinfo = zipfile.ZipInfo()\r\n+                                 ~\r\nAn expression was expected after '('.\r\nAt line:34 char:25\r\n+         z.writestr(zinfo, sitecustomize)\r\n+                         ~\r\nMissing argument in parameter list.\r\nNot all parse errors were reported.  Correct the reported errors and try again.\r\n\"\r\nAt line:6 char:1\r\n+ $exec_wrapper = [ScriptBlock]::Create($split_parts[0])\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : ParseException\r\n \r\nThe expression after '&' in a pipeline element produced an object that was not \r\nvalid. It must result in a command name, a script block, or a CommandInfo objec\r\nt.\r\nAt line:7 char:2\r\n+ &$exec_wrapper\r\n+  ~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : BadExpression\r\n ", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-08-14 11:38:13,854 p=11982 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 11:38:13,854 p=11982 u=root n=ansible | df-qa-web01                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:38:13,854 p=11982 u=root n=ansible | df-qa-web02                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 11:39:29,118 p=13539 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:39:29,411 p=13539 u=root n=ansible | ERROR! conflicting action statements: shell, hosts
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - name  : unzip
+   ^ here
+
+2021-08-14 11:40:56,049 p=14931 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:40:56,350 p=14931 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 6, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name : test
+  ^ here
+
+2021-08-14 11:41:37,661 p=15610 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:41:37,947 p=15610 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 6, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name : test
+  ^ here
+
+2021-08-14 11:42:52,539 p=16806 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:42:52,918 p=16806 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: 10.255.83.49
+
+2021-08-14 11:42:52,919 p=16806 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 11:42:52,919 p=16806 u=root n=ansible | skipping: no hosts matched
+2021-08-14 11:42:52,919 p=16806 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 11:46:14,280 p=20038 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 11:46:14,676 p=20038 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 11:46:14,688 p=20038 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 11:46:27,639 p=20038 u=root n=ansible | fatal: [elk-prom-haproxy02]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added 'elk-prom-haproxy02,10.255.83.49' (ECDSA) to the list of known hosts.\r\nPermission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", "unreachable": true}
+2021-08-14 11:46:27,641 p=20038 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 11:46:27,641 p=20038 u=root n=ansible | elk-prom-haproxy02         : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:02:16,634 p=25940 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:02:17,298 p=25940 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: Df-prom-web01
+
+2021-08-14 12:02:17,299 p=25940 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:02:17,299 p=25940 u=root n=ansible | skipping: no hosts matched
+2021-08-14 12:02:17,299 p=25940 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:04:54,864 p=27218 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:04:55,495 p=27218 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:04:55,507 p=27218 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:05:25,611 p=27218 u=root n=ansible | fatal: [Df-prom-web01]: UNREACHABLE! => {"changed": false, "msg": "ssl: HTTPSConnectionPool(host='10.255.82.30', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f802cde81d0>, 'Connection to 10.255.82.30 timed out. (connect timeout=30)'))", "unreachable": true}
+2021-08-14 12:05:25,615 p=27218 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:05:25,616 p=27218 u=root n=ansible | Df-prom-web01              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:06:51,734 p=27887 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:06:52,382 p=27887 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:06:52,393 p=27887 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:07:34,772 p=27887 u=root n=ansible | ok: [Df-prom-web01]
+2021-08-14 12:07:34,781 p=27887 u=root n=ansible | TASK [test] *******************************************************************************************************************************************
+2021-08-14 12:07:37,912 p=27887 u=root n=ansible | fatal: [Df-prom-web01]: FAILED! => {"changed": true, "cmd": "D:/unzip and remove.ps1", "delta": "0:00:01.054135", "end": "2021-08-14 09:07:37.567396", "msg": "non-zero return code", "rc": 1, "start": "2021-08-14 09:07:36.513261", "stderr": "D:/unzip : The term 'D:/unzip' is not recognized as the name of a cmdlet, funct\r\nion, script file, or operable program. Check the spelling of the name, or if a \r\npath was included, verify that the path is correct and try again.\r\nAt line:1 char:65\r\n+ ... InputEncoding = New-Object Text.UTF8Encoding $false; D:/unzip and rem ...\r\n+                                                          ~~~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (D:/unzip:String) [], CommandNot \r\n   FoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["D:/unzip : The term 'D:/unzip' is not recognized as the name of a cmdlet, funct", "ion, script file, or operable program. Check the spelling of the name, or if a ", "path was included, verify that the path is correct and try again.", "At line:1 char:65", "+ ... InputEncoding = New-Object Text.UTF8Encoding $false; D:/unzip and rem ...", "+                                                          ~~~~~~~~", "    + CategoryInfo          : ObjectNotFound: (D:/unzip:String) [], CommandNot ", "   FoundException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-08-14 12:07:37,914 p=27887 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:07:37,914 p=27887 u=root n=ansible | Df-prom-web01              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:08:51,256 p=28649 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:08:51,910 p=28649 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:08:51,921 p=28649 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:09:27,563 p=28649 u=root n=ansible | ok: [Df-prom-web01]
+2021-08-14 12:09:27,571 p=28649 u=root n=ansible | TASK [test] *******************************************************************************************************************************************
+2021-08-14 12:09:29,886 p=28649 u=root n=ansible | fatal: [Df-prom-web01]: FAILED! => {"changed": true, "cmd": "D:/unzip and remove.ps1", "delta": "0:00:00.531052", "end": "2021-08-14 09:09:29.531897", "msg": "non-zero return code", "rc": 1, "start": "2021-08-14 09:09:29.000845", "stderr": "D:/unzip : The term 'D:/unzip' is not recognized as the name of a cmdlet, funct\r\nion, script file, or operable program. Check the spelling of the name, or if a \r\npath was included, verify that the path is correct and try again.\r\nAt line:1 char:65\r\n+ ... InputEncoding = New-Object Text.UTF8Encoding $false; D:/unzip and rem ...\r\n+                                                          ~~~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (D:/unzip:String) [], CommandNot \r\n   FoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["D:/unzip : The term 'D:/unzip' is not recognized as the name of a cmdlet, funct", "ion, script file, or operable program. Check the spelling of the name, or if a ", "path was included, verify that the path is correct and try again.", "At line:1 char:65", "+ ... InputEncoding = New-Object Text.UTF8Encoding $false; D:/unzip and rem ...", "+                                                          ~~~~~~~~", "    + CategoryInfo          : ObjectNotFound: (D:/unzip:String) [], CommandNot ", "   FoundException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-08-14 12:09:29,887 p=28649 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:09:29,888 p=28649 u=root n=ansible | Df-prom-web01              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:28:01,793 p=33175 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:28:02,432 p=33175 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:28:02,444 p=33175 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:28:21,725 p=33175 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 12:28:21,733 p=33175 u=root n=ansible | TASK [test] *******************************************************************************************************************************************
+2021-08-14 12:28:23,977 p=33175 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:/web/unzip.ps1", "delta": "0:00:00.561643", "end": "2021-08-14 09:28:24.006242", "rc": 0, "start": "2021-08-14 09:28:23.444598", "stderr": "Get-childitem : Access is denied\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"\\\\Df-prom-web01\\Update\\update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update \r\n   _ansible:String) [Get-ChildItem], UnauthorizedAccessException\r\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe \r\n   rShell.Commands.GetChildItemCommand\r\n \r\nGet-childitem : Cannot find path '\\\\Df-prom-web01\\Update\\update_ansible' becaus\r\ne it does not exist.\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"\\\\Df-prom-web01\\Update\\update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (\\\\Df-prom-web01\\Update\\update_a \r\n   nsible:String) [Get-ChildItem], ItemNotFoundException\r\n    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh \r\n   ildItemCommand", "stderr_lines": ["Get-childitem : Access is denied", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"\\\\Df-prom-web01\\Update\\update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update ", "   _ansible:String) [Get-ChildItem], UnauthorizedAccessException", "    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe ", "   rShell.Commands.GetChildItemCommand", " ", "Get-childitem : Cannot find path '\\\\Df-prom-web01\\Update\\update_ansible' becaus", "e it does not exist.", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"\\\\Df-prom-web01\\Update\\update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : ObjectNotFound: (\\\\Df-prom-web01\\Update\\update_a ", "   nsible:String) [Get-ChildItem], ItemNotFoundException", "    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh ", "   ildItemCommand"], "stdout": "", "stdout_lines": []}
+2021-08-14 12:28:23,979 p=33175 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:28:23,980 p=33175 u=root n=ansible | df-qa-web02                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:32:10,946 p=34464 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:32:11,590 p=34464 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:32:11,605 p=34464 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:32:30,604 p=34464 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 12:32:30,611 p=34464 u=root n=ansible | TASK [test] *******************************************************************************************************************************************
+2021-08-14 12:32:32,652 p=34464 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:\\web\\unzip.ps1", "delta": "0:00:00.514772", "end": "2021-08-14 09:32:32.694835", "rc": 0, "start": "2021-08-14 09:32:32.180062", "stderr": "Get-childitem : Access is denied\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"\\\\Df-prom-web01\\Update\\update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update \r\n   _ansible:String) [Get-ChildItem], UnauthorizedAccessException\r\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe \r\n   rShell.Commands.GetChildItemCommand\r\n \r\nGet-childitem : Cannot find path '\\\\Df-prom-web01\\Update\\update_ansible' becaus\r\ne it does not exist.\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"\\\\Df-prom-web01\\Update\\update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (\\\\Df-prom-web01\\Update\\update_a \r\n   nsible:String) [Get-ChildItem], ItemNotFoundException\r\n    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh \r\n   ildItemCommand", "stderr_lines": ["Get-childitem : Access is denied", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"\\\\Df-prom-web01\\Update\\update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update ", "   _ansible:String) [Get-ChildItem], UnauthorizedAccessException", "    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe ", "   rShell.Commands.GetChildItemCommand", " ", "Get-childitem : Cannot find path '\\\\Df-prom-web01\\Update\\update_ansible' becaus", "e it does not exist.", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"\\\\Df-prom-web01\\Update\\update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : ObjectNotFound: (\\\\Df-prom-web01\\Update\\update_a ", "   nsible:String) [Get-ChildItem], ItemNotFoundException", "    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh ", "   ildItemCommand"], "stdout": "", "stdout_lines": []}
+2021-08-14 12:32:32,654 p=34464 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:32:32,654 p=34464 u=root n=ansible | df-qa-web02                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:34:27,904 p=35261 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:34:28,545 p=35261 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:34:28,558 p=35261 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:34:47,612 p=35261 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 12:34:47,620 p=35261 u=root n=ansible | TASK [test] *******************************************************************************************************************************************
+2021-08-14 12:34:49,722 p=35261 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:/web/unzip.ps1", "delta": "0:00:00.530423", "end": "2021-08-14 09:34:49.764176", "rc": 0, "start": "2021-08-14 09:34:49.233753", "stderr": "Get-childitem : Access is denied\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update \r\n   _ansible:String) [Get-ChildItem], UnauthorizedAccessException\r\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe \r\n   rShell.Commands.GetChildItemCommand\r\n \r\nGet-childitem : Cannot find path '//Df-prom-web01/Update/update_ansible' becaus\r\ne it does not exist.\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (//Df-prom-web01/Update/update_a \r\n   nsible:String) [Get-ChildItem], ItemNotFoundException\r\n    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh \r\n   ildItemCommand", "stderr_lines": ["Get-childitem : Access is denied", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update ", "   _ansible:String) [Get-ChildItem], UnauthorizedAccessException", "    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe ", "   rShell.Commands.GetChildItemCommand", " ", "Get-childitem : Cannot find path '//Df-prom-web01/Update/update_ansible' becaus", "e it does not exist.", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : ObjectNotFound: (//Df-prom-web01/Update/update_a ", "   nsible:String) [Get-ChildItem], ItemNotFoundException", "    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh ", "   ildItemCommand"], "stdout": "", "stdout_lines": []}
+2021-08-14 12:34:49,725 p=35261 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:34:49,725 p=35261 u=root n=ansible | df-qa-web02                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:36:48,085 p=36123 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:36:48,765 p=36123 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:36:48,776 p=36123 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:36:48,852 p=36123 u=root n=ansible | fatal: [df-qa-web02]: FAILED! => {"msg": "The powershell shell family is incompatible with the sudo become plugin"}
+2021-08-14 12:36:48,854 p=36123 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:36:48,854 p=36123 u=root n=ansible | df-qa-web02                : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:39:08,751 p=37268 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:39:09,385 p=37268 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:39:09,396 p=37268 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:39:28,335 p=37268 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 12:39:28,344 p=37268 u=root n=ansible | TASK [test] *******************************************************************************************************************************************
+2021-08-14 12:39:30,429 p=37268 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:\\web\\unzip.ps1", "delta": "0:00:00.530343", "end": "2021-08-14 09:39:30.471729", "rc": 0, "start": "2021-08-14 09:39:29.941385", "stderr": "Get-childitem : Access is denied\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update \r\n   _ansible:String) [Get-ChildItem], UnauthorizedAccessException\r\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe \r\n   rShell.Commands.GetChildItemCommand\r\n \r\nGet-childitem : Cannot find path '//Df-prom-web01/Update/update_ansible' becaus\r\ne it does not exist.\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (//Df-prom-web01/Update/update_a \r\n   nsible:String) [Get-ChildItem], ItemNotFoundException\r\n    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh \r\n   ildItemCommand", "stderr_lines": ["Get-childitem : Access is denied", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update ", "   _ansible:String) [Get-ChildItem], UnauthorizedAccessException", "    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe ", "   rShell.Commands.GetChildItemCommand", " ", "Get-childitem : Cannot find path '//Df-prom-web01/Update/update_ansible' becaus", "e it does not exist.", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : ObjectNotFound: (//Df-prom-web01/Update/update_a ", "   nsible:String) [Get-ChildItem], ItemNotFoundException", "    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh ", "   ildItemCommand"], "stdout": "", "stdout_lines": []}
+2021-08-14 12:39:30,431 p=37268 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:39:30,432 p=37268 u=root n=ansible | df-qa-web02                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-14 12:45:02,087 p=40301 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-14 12:45:02,717 p=40301 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 12:45:02,728 p=40301 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 12:45:21,798 p=40301 u=root n=ansible | ok: [df-qa-web02]
+2021-08-14 12:45:21,808 p=40301 u=root n=ansible | TASK [test] *******************************************************************************************************************************************
+2021-08-14 12:45:23,867 p=40301 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:\\web\\unzip.ps1", "delta": "0:00:00.499237", "end": "2021-08-14 09:45:23.930689", "rc": 0, "start": "2021-08-14 09:45:23.431452", "stderr": "Get-childitem : Access is denied\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update \r\n   _ansible:String) [Get-ChildItem], UnauthorizedAccessException\r\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe \r\n   rShell.Commands.GetChildItemCommand\r\n \r\nGet-childitem : Cannot find path '//Df-prom-web01/Update/update_ansible' becaus\r\ne it does not exist.\r\nAt E:\\web\\unzip.ps1:1 char:9\r\n+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (//Df-prom-web01/Update/update_a \r\n   nsible:String) [Get-ChildItem], ItemNotFoundException\r\n    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh \r\n   ildItemCommand", "stderr_lines": ["Get-childitem : Access is denied", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : PermissionDenied: (\\\\Df-prom-web01\\Update\\update ", "   _ansible:String) [Get-ChildItem], UnauthorizedAccessException", "    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.Powe ", "   rShell.Commands.GetChildItemCommand", " ", "Get-childitem : Cannot find path '//Df-prom-web01/Update/update_ansible' becaus", "e it does not exist.", "At E:\\web\\unzip.ps1:1 char:9", "+ $arcs = Get-childitem -recurse \"//Df-prom-web01/Update/update_ansible ...", "+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", "    + CategoryInfo          : ObjectNotFound: (//Df-prom-web01/Update/update_a ", "   nsible:String) [Get-ChildItem], ItemNotFoundException", "    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCh ", "   ildItemCommand"], "stdout": "", "stdout_lines": []}
+2021-08-14 12:45:23,870 p=40301 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-14 12:45:23,870 p=40301 u=root n=ansible | df-qa-web02                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-14 13:49:28,325 p=75750 u=root n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - name  : unzip
+   ^ here
+
+2021-08-14 13:50:44,920 p=76988 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 12, column 17, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   - name : unzip and remuve arhive
+      win_shell : E:\web\unzip.ps1
+                ^ here
+
+2021-08-14 13:51:02,879 p=77271 u=root n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/u01/ansible/doms_qa/unzip.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - name  : unzip
+   ^ here
+
+2021-08-14 13:51:45,408 p=77957 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 13:51:45,419 p=77957 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 13:51:47,807 p=77957 u=root n=ansible |  [ERROR]: User interrupted execution
+
+2021-08-14 13:51:57,036 p=78149 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-14 13:51:57,047 p=78149 u=root n=ansible | TASK [Gathering Facts] ********************************************************************************************************************************
+2021-08-14 13:51:58,254 p=78149 u=root n=ansible |  [ERROR]: User interrupted execution
+
+2021-08-14 13:59:40,930 p=84233 u=root n=ansible | ERROR! 'include_tasks' is not a valid attribute for a Play
+
+The error appears to be in '/u01/ansible/doms_qa/playbook.yml': line 15, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+ - include_tasks: unzip.yml
+   ^ here
+
+2021-08-14 13:59:57,678 p=84374 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/u01/ansible/doms_qa/playbook.yml': line 15, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - include_tasks: unzip.yml
+  ^ here
+
+2021-08-24 01:35:35,697 p=70336 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-08-24 01:35:36,764 p=70336 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-24 01:35:36,785 p=70336 u=root n=ansible | TASK [unzip and remuve arhive] ************************************************************************************************************************
+2021-08-24 01:35:48,550 p=70336 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:\\web\\unzip.ps1", "delta": "0:00:09.329630", "end": "2021-08-23 10:35:48.576434", "rc": 0, "start": "2021-08-23 10:35:39.246804", "stderr": "Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check\r\n the spelling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt E:\\web\\unzip.ps1:11 char:5\r\n+     Remove archives\r\n+     ~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check", " the spelling of the name, or if a path was included, verify that the path is correct and try again.", "At E:\\web\\unzip.ps1:11 char:5", "+     Remove archives", "+     ~~~~~~", "    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-08-24 01:35:48,555 p=70336 u=root n=ansible | PLAY [test] *******************************************************************************************************************************************
+2021-08-24 01:35:48,564 p=70336 u=root n=ansible | TASK [stop IIS] ***************************************************************************************************************************************
+2021-08-24 01:35:50,363 p=70336 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-08-24 01:35:50,603 p=70336 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-08-24 01:35:50,611 p=70336 u=root n=ansible | TASK [del_bin] ****************************************************************************************************************************************
+2021-08-24 01:35:52,446 p=70336 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.389977", "end": "2021-08-23 10:35:52.507971", "rc": 0, "start": "2021-08-23 10:35:52.117993", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-08-24 01:35:52,475 p=70336 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.374391", "end": "2021-08-23 10:35:52.520424", "rc": 0, "start": "2021-08-23 10:35:52.146032", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-08-24 01:35:52,481 p=70336 u=root n=ansible | TASK [include_tasks] **********************************************************************************************************************************
+2021-08-24 01:35:52,524 p=70336 u=root n=ansible | included: /u01/ansible/doms_qa/copy.yml for df-qa-web01, df-qa-web02
+2021-08-24 01:35:52,541 p=70336 u=root n=ansible | TASK [cp in clusters] *********************************************************************************************************************************
+2021-08-24 01:36:30,619 p=70336 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-08-24 01:36:31,669 p=70336 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-08-24 01:36:31,674 p=70336 u=root n=ansible | TASK [Start IIS] **************************************************************************************************************************************
+2021-08-24 01:36:33,485 p=70336 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-08-24 01:36:34,667 p=70336 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-08-24 01:36:34,670 p=70336 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-24 01:36:34,671 p=70336 u=root n=ansible | df-qa-web01                : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-24 01:36:34,671 p=70336 u=root n=ansible | df-qa-web02                : ok=6    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-29 20:45:14,466 p=103046 u=root n=ansible | PLAY [unzip] ******************************************************************************************************************************************
+2021-08-29 20:45:14,478 p=103046 u=root n=ansible | TASK [unzip and remuve arhive] ************************************************************************************************************************
+2021-08-29 20:45:27,837 p=103046 u=root n=ansible | changed: [df-qa-web02]
+2021-08-29 20:45:27,841 p=103046 u=root n=ansible | PLAY [test] *******************************************************************************************************************************************
+2021-08-29 20:45:27,848 p=103046 u=root n=ansible | TASK [stop IIS] ***************************************************************************************************************************************
+2021-08-29 20:45:30,728 p=103046 u=root n=ansible | changed: [df-qa-web01]
+2021-08-29 20:45:31,535 p=103046 u=root n=ansible | changed: [df-qa-web02]
+2021-08-29 20:45:31,539 p=103046 u=root n=ansible | TASK [del_bin] ****************************************************************************************************************************************
+2021-08-29 20:45:33,266 p=103046 u=root n=ansible | changed: [df-qa-web02]
+2021-08-29 20:45:33,518 p=103046 u=root n=ansible | changed: [df-qa-web01]
+2021-08-29 20:45:33,522 p=103046 u=root n=ansible | TASK [include_tasks] **********************************************************************************************************************************
+2021-08-29 20:45:33,547 p=103046 u=root n=ansible | included: /u01/ansible/doms_qa/copy.yml for df-qa-web01, df-qa-web02
+2021-08-29 20:45:33,558 p=103046 u=root n=ansible | TASK [cp in clusters] *********************************************************************************************************************************
+2021-08-29 20:46:09,010 p=103046 u=root n=ansible | changed: [df-qa-web02]
+2021-08-29 20:46:09,799 p=103046 u=root n=ansible | changed: [df-qa-web01]
+2021-08-29 20:46:09,805 p=103046 u=root n=ansible | TASK [Start IIS] **************************************************************************************************************************************
+2021-08-29 20:46:11,806 p=103046 u=root n=ansible | changed: [df-qa-web01]
+2021-08-29 20:46:12,028 p=103046 u=root n=ansible | changed: [df-qa-web02]
+2021-08-29 20:46:12,030 p=103046 u=root n=ansible | PLAY RECAP ********************************************************************************************************************************************
+2021-08-29 20:46:12,031 p=103046 u=root n=ansible | df-qa-web01                : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-08-29 20:46:12,031 p=103046 u=root n=ansible | df-qa-web02                : ok=6    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-01 00:25:33,436 p=34228 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-10-01 00:25:34,145 p=34228 u=root n=ansible | PLAY [unzip] ***************************************************************************************************************************************************************************************
+2021-10-01 00:25:34,167 p=34228 u=root n=ansible | TASK [unzip and remuve arhive] *********************************************************************************************************************************************************************
+2021-10-01 00:25:46,475 p=34228 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:\\web\\unzip.ps1", "delta": "0:00:09.875539", "end": "2021-09-30 09:25:46.500413", "rc": 0, "start": "2021-09-30 09:25:36.624874", "stderr": "Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check\r\n the spelling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt E:\\web\\unzip.ps1:11 char:5\r\n+     Remove archives\r\n+     ~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check", " the spelling of the name, or if a path was included, verify that the path is correct and try again.", "At E:\\web\\unzip.ps1:11 char:5", "+     Remove archives", "+     ~~~~~~", "    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-10-01 00:25:46,482 p=34228 u=root n=ansible | PLAY [test] ****************************************************************************************************************************************************************************************
+2021-10-01 00:25:46,488 p=34228 u=root n=ansible | TASK [stop IIS] ************************************************************************************************************************************************************************************
+2021-10-01 00:25:48,356 p=34228 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-01 00:25:49,067 p=34228 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-01 00:25:49,072 p=34228 u=root n=ansible | TASK [del_bin] *************************************************************************************************************************************************************************************
+2021-10-01 00:25:50,798 p=34228 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.374510", "end": "2021-09-30 09:25:50.868829", "rc": 0, "start": "2021-09-30 09:25:50.494319", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-01 00:25:50,802 p=34228 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.358844", "end": "2021-09-30 09:25:50.862993", "rc": 0, "start": "2021-09-30 09:25:50.504149", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-01 00:25:50,807 p=34228 u=root n=ansible | TASK [include_tasks] *******************************************************************************************************************************************************************************
+2021-10-01 00:25:50,833 p=34228 u=root n=ansible | included: /u01/ansible/doms_qa/copy.yml for df-qa-web01, df-qa-web02
+2021-10-01 00:25:50,843 p=34228 u=root n=ansible | TASK [cp in clusters] ******************************************************************************************************************************************************************************
+2021-10-01 00:26:24,862 p=34228 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-01 00:26:25,159 p=34228 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-01 00:26:25,166 p=34228 u=root n=ansible | TASK [Start IIS] ***********************************************************************************************************************************************************************************
+2021-10-01 00:26:26,975 p=34228 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-01 00:26:27,003 p=34228 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-01 00:26:27,005 p=34228 u=root n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2021-10-01 00:26:27,006 p=34228 u=root n=ansible | df-qa-web01                : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-01 00:26:27,006 p=34228 u=root n=ansible | df-qa-web02                : ok=6    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-01 00:29:52,270 p=34801 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-10-01 00:29:54,660 p=34801 u=root n=ansible | df-qa-web02 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-01_00_06
+Version: 1.8.14.6932
+Commit hash: 8afb5312f0ff9dcb667963d0800b794c852eda86
+
+
+2021-10-01 00:29:54,770 p=34801 u=root n=ansible | Df-prom-web01 | FAILED | rc=1 >>
+cat : Cannot find path 'E:\web\FFOMS\Version.txt' because it does not exist.
+At line:1 char:65
++ ... g = New-Object Text.UTF8Encoding $false; cat E:\web\FFOMS\Version.txt
++                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (E:\web\FFOMS\Version.txt:String 
+   ) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCo 
+   ntentCommandnon-zero return code
+
+2021-10-01 00:29:54,791 p=34801 u=root n=ansible | df-qa-web01 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-01_00_06
+Version: 1.8.14.6932
+Commit hash: 8afb5312f0ff9dcb667963d0800b794c852eda86
+
+
+2021-10-13 20:37:38,070 p=76704 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-10-13 20:37:38,772 p=76704 u=root n=ansible | PLAY [unzip] ***********************************************************************************************************************************************
+2021-10-13 20:37:38,784 p=76704 u=root n=ansible | TASK [unzip and remuve arhive] *****************************************************************************************************************************
+2021-10-13 20:37:50,962 p=76704 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:\\web\\unzip.ps1", "delta": "0:00:09.703185", "end": "2021-10-13 05:37:50.994126", "rc": 0, "start": "2021-10-13 05:37:41.290940", "stderr": "Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check\r\n the spelling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt E:\\web\\unzip.ps1:11 char:5\r\n+     Remove archives\r\n+     ~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check", " the spelling of the name, or if a path was included, verify that the path is correct and try again.", "At E:\\web\\unzip.ps1:11 char:5", "+     Remove archives", "+     ~~~~~~", "    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-10-13 20:37:50,966 p=76704 u=root n=ansible | PLAY [test] ************************************************************************************************************************************************
+2021-10-13 20:37:50,973 p=76704 u=root n=ansible | TASK [stop IIS] ********************************************************************************************************************************************
+2021-10-13 20:37:53,768 p=76704 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 20:37:54,683 p=76704 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 20:37:54,689 p=76704 u=root n=ansible | TASK [del_bin] *********************************************************************************************************************************************
+2021-10-13 20:37:56,425 p=76704 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.374380", "end": "2021-10-13 05:37:56.485067", "rc": 0, "start": "2021-10-13 05:37:56.110687", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-13 20:37:56,477 p=76704 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.358714", "end": "2021-10-13 05:37:56.547717", "rc": 0, "start": "2021-10-13 05:37:56.189002", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-13 20:37:56,482 p=76704 u=root n=ansible | TASK [include_tasks] ***************************************************************************************************************************************
+2021-10-13 20:37:56,506 p=76704 u=root n=ansible | included: /u01/ansible/doms_qa/copy.yml for df-qa-web01, df-qa-web02
+2021-10-13 20:37:56,516 p=76704 u=root n=ansible | TASK [cp in clusters] **************************************************************************************************************************************
+2021-10-13 20:38:31,538 p=76704 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-13 20:38:32,033 p=76704 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-13 20:38:32,038 p=76704 u=root n=ansible | TASK [Start IIS] *******************************************************************************************************************************************
+2021-10-13 20:38:33,864 p=76704 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-13 20:38:33,936 p=76704 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-13 20:38:33,938 p=76704 u=root n=ansible | PLAY RECAP *************************************************************************************************************************************************
+2021-10-13 20:38:33,939 p=76704 u=root n=ansible | df-qa-web01                : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 20:38:33,939 p=76704 u=root n=ansible | df-qa-web02                : ok=6    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 20:42:22,224 p=77334 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-10-13 20:42:24,571 p=77334 u=root n=ansible | df-qa-web02 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-13_20_19
+Version: 1.8.23.7387
+Commit hash: 22a7181dfcd51ca4398ba8ad20f6ca9a1f356c3c
+
+
+2021-10-13 20:42:24,662 p=77334 u=root n=ansible | df-qa-web01 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-13_20_19
+Version: 1.8.23.7387
+Commit hash: 22a7181dfcd51ca4398ba8ad20f6ca9a1f356c3c
+
+
+2021-10-13 20:42:24,790 p=77334 u=root n=ansible | Df-prom-web01 | FAILED | rc=1 >>
+cat : Cannot find path 'E:\web\FFOMS\Version.txt' because it does not exist.
+At line:1 char:65
++ ... g = New-Object Text.UTF8Encoding $false; cat E:\web\FFOMS\Version.txt
++                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (E:\web\FFOMS\Version.txt:String 
+   ) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCo 
+   ntentCommandnon-zero return code
+
+2021-10-13 20:46:53,913 p=77913 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-10-13 20:46:54,598 p=77913 u=root n=ansible | PLAY [unzip] ***************************************************************************************************************************************************
+2021-10-13 20:46:54,611 p=77913 u=root n=ansible | TASK [unzip and remuve arhive] *********************************************************************************************************************************
+2021-10-13 20:47:06,132 p=77913 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:\\web\\unzip.ps1", "delta": "0:00:09.110666", "end": "2021-10-13 05:47:06.173368", "rc": 0, "start": "2021-10-13 05:46:57.062701", "stderr": "Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check\r\n the spelling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt E:\\web\\unzip.ps1:11 char:5\r\n+     Remove archives\r\n+     ~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check", " the spelling of the name, or if a path was included, verify that the path is correct and try again.", "At E:\\web\\unzip.ps1:11 char:5", "+     Remove archives", "+     ~~~~~~", "    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-10-13 20:47:06,135 p=77913 u=root n=ansible | PLAY [test] ****************************************************************************************************************************************************
+2021-10-13 20:47:06,143 p=77913 u=root n=ansible | TASK [stop IIS] ************************************************************************************************************************************************
+2021-10-13 20:47:08,898 p=77913 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 20:47:09,833 p=77913 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 20:47:09,839 p=77913 u=root n=ansible | TASK [del_bin] *************************************************************************************************************************************************
+2021-10-13 20:47:11,548 p=77913 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.343208", "end": "2021-10-13 05:47:11.617931", "rc": 0, "start": "2021-10-13 05:47:11.274723", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-13 20:47:11,583 p=77913 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.405585", "end": "2021-10-13 05:47:11.656214", "rc": 0, "start": "2021-10-13 05:47:11.250629", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-13 20:47:11,589 p=77913 u=root n=ansible | TASK [include_tasks] *******************************************************************************************************************************************
+2021-10-13 20:47:11,614 p=77913 u=root n=ansible | included: /u01/ansible/doms_qa/copy.yml for df-qa-web01, df-qa-web02
+2021-10-13 20:47:11,624 p=77913 u=root n=ansible | TASK [cp in clusters] ******************************************************************************************************************************************
+2021-10-13 20:47:46,120 p=77913 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-13 20:47:46,496 p=77913 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-13 20:47:46,502 p=77913 u=root n=ansible | TASK [Start IIS] ***********************************************************************************************************************************************
+2021-10-13 20:47:48,315 p=77913 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-13 20:47:48,416 p=77913 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-13 20:47:48,418 p=77913 u=root n=ansible | PLAY RECAP *****************************************************************************************************************************************************
+2021-10-13 20:47:48,418 p=77913 u=root n=ansible | df-qa-web01                : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 20:47:48,418 p=77913 u=root n=ansible | df-qa-web02                : ok=6    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-15 20:26:23,096 p=71641 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-10-15 20:26:23,786 p=71641 u=root n=ansible | PLAY [unzip] *****************************************************************************************************************************************************************
+2021-10-15 20:26:23,798 p=71641 u=root n=ansible | TASK [unzip and remuve arhive] ***********************************************************************************************************************************************
+2021-10-15 20:26:35,286 p=71641 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "E:\\web\\unzip.ps1", "delta": "0:00:09.110432", "end": "2021-10-15 05:26:35.307308", "rc": 0, "start": "2021-10-15 05:26:26.196875", "stderr": "Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check\r\n the spelling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt E:\\web\\unzip.ps1:11 char:5\r\n+     Remove archives\r\n+     ~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["Remove : The term 'Remove' is not recognized as the name of a cmdlet, function, script file, or operable program. Check", " the spelling of the name, or if a path was included, verify that the path is correct and try again.", "At E:\\web\\unzip.ps1:11 char:5", "+     Remove archives", "+     ~~~~~~", "    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFoundException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-10-15 20:26:35,291 p=71641 u=root n=ansible | PLAY [test] ******************************************************************************************************************************************************************
+2021-10-15 20:26:35,299 p=71641 u=root n=ansible | TASK [stop IIS] **************************************************************************************************************************************************************
+2021-10-15 20:26:37,398 p=71641 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-15 20:26:39,079 p=71641 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-15 20:26:39,084 p=71641 u=root n=ansible | TASK [del_bin] ***************************************************************************************************************************************************************
+2021-10-15 20:26:40,844 p=71641 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.343281", "end": "2021-10-15 05:26:40.907805", "rc": 0, "start": "2021-10-15 05:26:40.564524", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-15 20:26:40,933 p=71641 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "cmd": "rm -r E:\\web\\FFOMS\\bin", "delta": "0:00:00.405613", "end": "2021-10-15 05:26:40.986217", "rc": 0, "start": "2021-10-15 05:26:40.580604", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-15 20:26:40,937 p=71641 u=root n=ansible | TASK [include_tasks] *********************************************************************************************************************************************************
+2021-10-15 20:26:40,963 p=71641 u=root n=ansible | included: /u01/ansible/doms_qa/copy.yml for df-qa-web01, df-qa-web02
+2021-10-15 20:26:40,972 p=71641 u=root n=ansible | TASK [cp in clusters] ********************************************************************************************************************************************************
+2021-10-15 20:27:15,163 p=71641 u=root n=ansible | changed: [df-qa-web02] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-15 20:27:16,838 p=71641 u=root n=ansible | changed: [df-qa-web01] => {"changed": true, "dest": "E:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-15 20:27:16,843 p=71641 u=root n=ansible | TASK [Start IIS] *************************************************************************************************************************************************************
+2021-10-15 20:27:18,652 p=71641 u=root n=ansible | changed: [df-qa-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-15 20:27:18,772 p=71641 u=root n=ansible | changed: [df-qa-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-15 20:27:18,774 p=71641 u=root n=ansible | PLAY RECAP *******************************************************************************************************************************************************************
+2021-10-15 20:27:18,774 p=71641 u=root n=ansible | df-qa-web01                : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-15 20:27:18,775 p=71641 u=root n=ansible | df-qa-web02                : ok=6    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-15 20:33:38,751 p=72590 u=root n=ansible | Using /u01/ansible/doms_qa/ansible.cfg as config file
+2021-10-15 20:33:41,131 p=72590 u=root n=ansible | df-qa-web02 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-15_19_52
+Version: 1.8.25.7467
+Commit hash: 9a19a437eb1805854606c3f67c4824ff743510a4
+
+
+2021-10-15 20:33:41,185 p=72590 u=root n=ansible | Df-prom-web01 | FAILED | rc=1 >>
+cat : Cannot find path 'E:\web\FFOMS\Version.txt' because it does not exist.
+At line:1 char:65
++ ... g = New-Object Text.UTF8Encoding $false; cat E:\web\FFOMS\Version.txt
++                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (E:\web\FFOMS\Version.txt:String 
+   ) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCo 
+   ntentCommandnon-zero return code
+
+2021-10-15 20:33:41,210 p=72590 u=root n=ansible | df-qa-web01 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-15_19_52
+Version: 1.8.25.7467
+Commit hash: 9a19a437eb1805854606c3f67c4824ff743510a4
+
+

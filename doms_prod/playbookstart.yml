@@ -1,0 +1,9 @@
+---
+ - name   : test
+   hosts  : all
+   tasks:
+    - name: test
+      win_service:
+        name     : W3SVC
+        state    : started
+

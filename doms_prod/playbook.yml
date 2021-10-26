@@ -1,25 +1,25 @@
 ---
  - name  : unzip
-   hosts : df-qa-web02
+   hosts : df-prom-web01
    gather_facts: no
-   become : yes
-   become_method: runas
-   become_user: Administrator
+#   become : yes
+#   become_method: runas
+#   become_user: Administrator
 
    tasks : 
 
    - name : unzip and remuve arhive 
-     win_shell : E:\web\unzip.ps1
+     win_shell : D:\unzip.ps1
 
  - name: test
-   hosts: win_servers_qa
+   hosts: win_servers_prod
    gather_facts: no
-
    tasks:
-
    - include: stop.yml
   
-   - include: del_bin.yml
+#   - include: backup.yml
+
+   - include : del_bin.yml
 
    - include_tasks: copy.yml
    

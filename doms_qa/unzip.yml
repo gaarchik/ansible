@@ -1,0 +1,12 @@
+---
+ - name  : unzip
+   hosts : df-qa-web02
+   become : yes
+   become_method: runas
+   become_user: Administrator
+#    become_password: Qwerty123!
+
+   tasks : 
+
+   - name : unzip and remuve arhive 
+     win_shell : E:\web\unzip.ps1

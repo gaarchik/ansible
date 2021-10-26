@@ -1,8 +1,8 @@
 [win_servers_qa]
-#df-qa-web01 ansible_host=10.255.82.65
+df-qa-web01 ansible_host=10.255.82.65
 df-qa-web02 ansible_host=10.255.82.66
-df-qa-web03 ansible_host=10.255.82.67
-df-qa-web04 ansible_host=10.255.82.68
+#df-qa-web03 ansible_host=10.255.82.67
+#df-qa-web04 ansible_host=10.255.82.68
 
 [win_servers_qa:vars]
 ansible_user=Administrator
@@ -10,3 +10,14 @@ ansible_password=Qwerty123!
 ansible_port=5986
 ansible_connection=winrm
 ansible_winrm_server_cert_validation=ignore
+
+[win_servers_prod]
+Df-prom-web01 ansible_host=10.255.82.30
+
+[win_servers_prod:vars]
+ansible_user=Administrator
+ansible_password=Qwerty123!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+

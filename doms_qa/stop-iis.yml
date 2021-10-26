@@ -1,0 +1,5 @@
+---
+ - name: test
+   hosts: win_servers_qa
+   tasks:
+   - include: stop.yml

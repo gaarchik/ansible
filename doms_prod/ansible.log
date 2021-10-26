@@ -1,0 +1,228 @@
+2021-08-19 07:28:26,310 p=13170 u=root n=ansible | Using /u01/ansible/doms_prod/ansible.cfg as config file
+2021-08-19 07:28:29,337 p=13170 u=root n=ansible | df-prom-web01 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-08-19_04_23
+Version: 1.7.00.5989
+Commit hash: 64ac9cd70ca9fe0ad8a6970a597ebb75660c643b
+
+
+2021-08-19 07:28:29,734 p=13170 u=root n=ansible | df-prom-web02 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-08-19_04_23
+Version: 1.7.00.5989
+Commit hash: 64ac9cd70ca9fe0ad8a6970a597ebb75660c643b
+
+
+2021-08-19 07:28:29,889 p=13170 u=root n=ansible | df-prom-web04 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-08-19_04_23
+Version: 1.7.00.5989
+Commit hash: 64ac9cd70ca9fe0ad8a6970a597ebb75660c643b
+
+
+2021-08-19 07:28:29,988 p=13170 u=root n=ansible | df-prom-web03 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-08-19_04_23
+Version: 1.7.00.5989
+Commit hash: 64ac9cd70ca9fe0ad8a6970a597ebb75660c643b
+
+
+2021-08-19 07:28:30,296 p=13170 u=root n=ansible | df-prom-web05 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-08-19_04_23
+Version: 1.7.00.5989
+Commit hash: 64ac9cd70ca9fe0ad8a6970a597ebb75660c643b
+
+
+2021-08-19 07:28:31,973 p=13170 u=root n=ansible | df-prom-web06 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-08-19_04_23
+Version: 1.7.00.5989
+Commit hash: 64ac9cd70ca9fe0ad8a6970a597ebb75660c643b
+
+
+2021-09-21 07:29:37,000 p=130932 u=root n=ansible | Using /u01/ansible/doms_prod/ansible.cfg as config file
+2021-09-21 07:29:37,694 p=130932 u=root n=ansible | PLAY [unzip] ***************************************************************************************************************************************************************************************
+2021-09-21 07:29:37,706 p=130932 u=root n=ansible | TASK [unzip and remuve arhive] *********************************************************************************************************************************************************************
+2021-09-21 07:29:48,572 p=130932 u=root n=ansible | changed: [df-prom-web01] => {"changed": true, "cmd": "D:\\unzip.ps1", "delta": "0:00:09.433207", "end": "2021-09-21 04:29:47.618670", "rc": 0, "start": "2021-09-21 04:29:38.185462", "stderr": "Remove : The term 'Remove' is not recognized as the name of a cmdlet, function,\r\n script file, or operable program. Check the spelling of the name, or if a path\r\n was included, verify that the path is correct and try again.\r\nAt D:\\unzip.ps1:11 char:5\r\n+     Remove archives\r\n+     ~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFo \r\n   undException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["Remove : The term 'Remove' is not recognized as the name of a cmdlet, function,", " script file, or operable program. Check the spelling of the name, or if a path", " was included, verify that the path is correct and try again.", "At D:\\unzip.ps1:11 char:5", "+     Remove archives", "+     ~~~~~~", "    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFo ", "   undException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-09-21 07:29:48,576 p=130932 u=root n=ansible | PLAY [test] ****************************************************************************************************************************************************************************************
+2021-09-21 07:29:48,584 p=130932 u=root n=ansible | TASK [stop IIS] ************************************************************************************************************************************************************************************
+2021-09-21 07:29:50,174 p=130932 u=root n=ansible | ok: [df-prom-web01] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-09-21 07:29:50,427 p=130932 u=root n=ansible | ok: [df-prom-web02] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-09-21 07:29:50,857 p=130932 u=root n=ansible | ok: [df-prom-web04] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-09-21 07:29:50,974 p=130932 u=root n=ansible | ok: [df-prom-web03] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-09-21 07:29:51,455 p=130932 u=root n=ansible | ok: [df-prom-web05] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-09-21 07:29:52,393 p=130932 u=root n=ansible | ok: [df-prom-web06] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-09-21 07:29:52,398 p=130932 u=root n=ansible | TASK [del_bin] *************************************************************************************************************************************************************************************
+2021-09-21 07:29:54,291 p=130932 u=root n=ansible | changed: [df-prom-web01] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.377038", "end": "2021-09-21 04:29:53.333392", "rc": 0, "start": "2021-09-21 04:29:52.956354", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-09-21 07:29:54,472 p=130932 u=root n=ansible | changed: [df-prom-web02] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.410033", "end": "2021-09-21 04:29:49.010261", "rc": 0, "start": "2021-09-21 04:29:48.600228", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-09-21 07:29:54,617 p=130932 u=root n=ansible | changed: [df-prom-web03] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.468010", "end": "2021-09-21 04:29:49.489507", "rc": 0, "start": "2021-09-21 04:29:49.021496", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-09-21 07:29:54,740 p=130932 u=root n=ansible | changed: [df-prom-web04] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.483614", "end": "2021-09-21 04:29:49.583573", "rc": 0, "start": "2021-09-21 04:29:49.099959", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-09-21 07:29:55,948 p=130932 u=root n=ansible | changed: [df-prom-web05] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.850045", "end": "2021-09-21 04:29:54.595719", "rc": 0, "start": "2021-09-21 04:29:53.745673", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-09-21 07:29:56,413 p=130932 u=root n=ansible | changed: [df-prom-web06] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.499192", "end": "2021-09-21 04:29:50.827052", "rc": 0, "start": "2021-09-21 04:29:50.327859", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-09-21 07:29:56,419 p=130932 u=root n=ansible | TASK [include_tasks] *******************************************************************************************************************************************************************************
+2021-09-21 07:29:56,488 p=130932 u=root n=ansible | included: /u01/ansible/doms_prod/copy.yml for df-prom-web01, df-prom-web02, df-prom-web03, df-prom-web04, df-prom-web05, df-prom-web06
+2021-09-21 07:29:56,515 p=130932 u=root n=ansible | TASK [cp in clusters] ******************************************************************************************************************************************************************************
+2021-09-21 07:31:00,484 p=130932 u=root n=ansible | changed: [df-prom-web02] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-09-21 07:31:01,851 p=130932 u=root n=ansible | changed: [df-prom-web01] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-09-21 07:31:03,457 p=130932 u=root n=ansible | changed: [df-prom-web04] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-09-21 07:31:03,787 p=130932 u=root n=ansible | changed: [df-prom-web03] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-09-21 07:31:04,170 p=130932 u=root n=ansible | changed: [df-prom-web05] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-09-21 07:31:35,416 p=130932 u=root n=ansible | changed: [df-prom-web06] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-09-21 07:31:35,423 p=130932 u=root n=ansible | TASK [Start IIS] ***********************************************************************************************************************************************************************************
+2021-09-21 07:31:37,317 p=130932 u=root n=ansible | changed: [df-prom-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-21 07:31:37,520 p=130932 u=root n=ansible | changed: [df-prom-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-21 07:31:37,907 p=130932 u=root n=ansible | changed: [df-prom-web05] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-21 07:31:37,965 p=130932 u=root n=ansible | changed: [df-prom-web03] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-21 07:31:38,038 p=130932 u=root n=ansible | changed: [df-prom-web04] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-21 07:31:39,636 p=130932 u=root n=ansible | changed: [df-prom-web06] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-21 07:31:39,639 p=130932 u=root n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2021-09-21 07:31:39,640 p=130932 u=root n=ansible | df-prom-web01              : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-21 07:31:39,640 p=130932 u=root n=ansible | df-prom-web02              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-21 07:31:39,640 p=130932 u=root n=ansible | df-prom-web03              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-21 07:31:39,640 p=130932 u=root n=ansible | df-prom-web04              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-21 07:31:39,640 p=130932 u=root n=ansible | df-prom-web05              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-21 07:31:39,641 p=130932 u=root n=ansible | df-prom-web06              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-21 07:35:12,295 p=978 u=root n=ansible | Using /u01/ansible/doms_prod/ansible.cfg as config file
+2021-09-21 07:35:12,605 p=978 u=root n=ansible | ERROR! 'win_service' is not a valid attribute for a Play
+
+The error appears to be in '/u01/ansible/doms_prod/start.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Start IIS
+  ^ here
+
+2021-09-25 03:59:48,041 p=8881 u=root n=ansible | Using /u01/ansible/doms_prod/ansible.cfg as config file
+2021-09-25 03:59:48,363 p=8881 u=root n=ansible | ERROR! 'win_service' is not a valid attribute for a Play
+
+The error appears to be in '/u01/ansible/doms_prod/start.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Start IIS
+  ^ here
+
+2021-09-25 04:00:51,795 p=9029 u=root n=ansible | Using /u01/ansible/doms_prod/ansible.cfg as config file
+2021-09-25 04:00:52,524 p=9029 u=root n=ansible | PLAY [test] ****************************************************************************************************************************************************************************************
+2021-09-25 04:00:52,537 p=9029 u=root n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2021-09-25 04:01:27,190 p=9029 u=root n=ansible | ok: [df-prom-web02]
+2021-09-25 04:01:27,433 p=9029 u=root n=ansible | ok: [df-prom-web01]
+2021-09-25 04:01:27,713 p=9029 u=root n=ansible | ok: [df-prom-web03]
+2021-09-25 04:01:28,151 p=9029 u=root n=ansible | ok: [df-prom-web04]
+2021-09-25 04:01:28,838 p=9029 u=root n=ansible | ok: [df-prom-web05]
+2021-09-25 04:02:02,840 p=9029 u=root n=ansible | ok: [df-prom-web06]
+2021-09-25 04:02:02,850 p=9029 u=root n=ansible | TASK [test] ****************************************************************************************************************************************************************************************
+2021-09-25 04:02:04,774 p=9029 u=root n=ansible | changed: [df-prom-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-25 04:02:04,956 p=9029 u=root n=ansible | changed: [df-prom-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-25 04:02:05,292 p=9029 u=root n=ansible | changed: [df-prom-web05] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-25 04:02:05,332 p=9029 u=root n=ansible | changed: [df-prom-web03] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-25 04:02:05,387 p=9029 u=root n=ansible | changed: [df-prom-web04] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-25 04:02:07,174 p=9029 u=root n=ansible | changed: [df-prom-web06] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-09-25 04:02:07,178 p=9029 u=root n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2021-09-25 04:02:07,179 p=9029 u=root n=ansible | df-prom-web01              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-25 04:02:07,179 p=9029 u=root n=ansible | df-prom-web02              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-25 04:02:07,179 p=9029 u=root n=ansible | df-prom-web03              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-25 04:02:07,179 p=9029 u=root n=ansible | df-prom-web04              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-25 04:02:07,179 p=9029 u=root n=ansible | df-prom-web05              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-09-25 04:02:07,180 p=9029 u=root n=ansible | df-prom-web06              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 23:01:18,481 p=94842 u=root n=ansible | Using /u01/ansible/doms_prod/ansible.cfg as config file
+2021-10-13 23:01:19,156 p=94842 u=root n=ansible | PLAY [test] ***********************************************************************************************************************************************
+2021-10-13 23:01:19,169 p=94842 u=root n=ansible | TASK [Gathering Facts] ************************************************************************************************************************************
+2021-10-13 23:01:53,791 p=94842 u=root n=ansible | ok: [df-prom-web02]
+2021-10-13 23:01:54,023 p=94842 u=root n=ansible | ok: [df-prom-web01]
+2021-10-13 23:01:54,401 p=94842 u=root n=ansible | ok: [df-prom-web03]
+2021-10-13 23:01:54,749 p=94842 u=root n=ansible | ok: [df-prom-web04]
+2021-10-13 23:01:55,921 p=94842 u=root n=ansible | ok: [df-prom-web05]
+2021-10-13 23:02:29,367 p=94842 u=root n=ansible | ok: [df-prom-web06]
+2021-10-13 23:02:29,378 p=94842 u=root n=ansible | TASK [stop IIS] *******************************************************************************************************************************************
+2021-10-13 23:02:32,548 p=94842 u=root n=ansible | changed: [df-prom-web03] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 23:02:32,592 p=94842 u=root n=ansible | changed: [df-prom-web04] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 23:02:32,805 p=94842 u=root n=ansible | changed: [df-prom-web05] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 23:02:33,242 p=94842 u=root n=ansible | changed: [df-prom-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 23:02:35,641 p=94842 u=root n=ansible | changed: [df-prom-web06] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 23:04:01,101 p=94842 u=root n=ansible | changed: [df-prom-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-13 23:04:01,108 p=94842 u=root n=ansible | PLAY RECAP ************************************************************************************************************************************************
+2021-10-13 23:04:01,109 p=94842 u=root n=ansible | df-prom-web01              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 23:04:01,109 p=94842 u=root n=ansible | df-prom-web02              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 23:04:01,109 p=94842 u=root n=ansible | df-prom-web03              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 23:04:01,110 p=94842 u=root n=ansible | df-prom-web04              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 23:04:01,110 p=94842 u=root n=ansible | df-prom-web05              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-13 23:04:01,111 p=94842 u=root n=ansible | df-prom-web06              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-14 02:19:52,128 p=119790 u=root n=ansible | Using /u01/ansible/doms_prod/ansible.cfg as config file
+2021-10-14 02:19:52,856 p=119790 u=root n=ansible | PLAY [unzip] **********************************************************************************************************************************************
+2021-10-14 02:19:52,869 p=119790 u=root n=ansible | TASK [unzip and remuve arhive] ****************************************************************************************************************************
+2021-10-14 02:20:03,996 p=119790 u=root n=ansible | changed: [df-prom-web01] => {"changed": true, "cmd": "D:\\unzip.ps1", "delta": "0:00:09.682234", "end": "2021-10-13 11:20:03.137376", "rc": 0, "start": "2021-10-13 11:19:53.455141", "stderr": "Remove : The term 'Remove' is not recognized as the name of a cmdlet, function,\r\n script file, or operable program. Check the spelling of the name, or if a path\r\n was included, verify that the path is correct and try again.\r\nAt D:\\unzip.ps1:11 char:5\r\n+     Remove archives\r\n+     ~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFo \r\n   undException\r\n    + FullyQualifiedErrorId : CommandNotFoundException", "stderr_lines": ["Remove : The term 'Remove' is not recognized as the name of a cmdlet, function,", " script file, or operable program. Check the spelling of the name, or if a path", " was included, verify that the path is correct and try again.", "At D:\\unzip.ps1:11 char:5", "+     Remove archives", "+     ~~~~~~", "    + CategoryInfo          : ObjectNotFound: (Remove:String) [], CommandNotFo ", "   undException", "    + FullyQualifiedErrorId : CommandNotFoundException"], "stdout": "", "stdout_lines": []}
+2021-10-14 02:20:04,000 p=119790 u=root n=ansible | PLAY [test] ***********************************************************************************************************************************************
+2021-10-14 02:20:04,008 p=119790 u=root n=ansible | TASK [stop IIS] *******************************************************************************************************************************************
+2021-10-14 02:20:05,669 p=119790 u=root n=ansible | ok: [df-prom-web02] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-14 02:20:05,822 p=119790 u=root n=ansible | ok: [df-prom-web01] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-14 02:20:06,099 p=119790 u=root n=ansible | ok: [df-prom-web03] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-14 02:20:06,210 p=119790 u=root n=ansible | ok: [df-prom-web04] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-14 02:20:06,417 p=119790 u=root n=ansible | ok: [df-prom-web05] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-14 02:20:07,856 p=119790 u=root n=ansible | ok: [df-prom-web06] => {"can_pause_and_continue": false, "changed": false, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "stopped", "username": "LocalSystem"}
+2021-10-14 02:20:07,860 p=119790 u=root n=ansible | TASK [del_bin] ********************************************************************************************************************************************
+2021-10-14 02:20:09,729 p=119790 u=root n=ansible | changed: [df-prom-web01] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.380040", "end": "2021-10-13 11:20:08.866105", "rc": 0, "start": "2021-10-13 11:20:08.486064", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-14 02:20:09,776 p=119790 u=root n=ansible | changed: [df-prom-web02] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.380051", "end": "2021-10-13 11:20:02.527181", "rc": 0, "start": "2021-10-13 11:20:02.147130", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-14 02:20:10,078 p=119790 u=root n=ansible | changed: [df-prom-web04] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.483605", "end": "2021-10-13 11:20:02.705095", "rc": 0, "start": "2021-10-13 11:20:02.221490", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-14 02:20:10,150 p=119790 u=root n=ansible | changed: [df-prom-web03] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.468056", "end": "2021-10-13 11:20:03.820505", "rc": 0, "start": "2021-10-13 11:20:03.352449", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-14 02:20:10,279 p=119790 u=root n=ansible | changed: [df-prom-web05] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.528040", "end": "2021-10-13 11:20:08.595737", "rc": 0, "start": "2021-10-13 11:20:08.067697", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-14 02:20:11,882 p=119790 u=root n=ansible | changed: [df-prom-web06] => {"changed": true, "cmd": "rm -r D:\\web\\FFOMS\\bin", "delta": "0:00:00.499195", "end": "2021-10-13 11:20:04.335469", "rc": 0, "start": "2021-10-13 11:20:03.836273", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2021-10-14 02:20:11,887 p=119790 u=root n=ansible | TASK [include_tasks] **************************************************************************************************************************************
+2021-10-14 02:20:11,956 p=119790 u=root n=ansible | included: /u01/ansible/doms_prod/copy.yml for df-prom-web01, df-prom-web02, df-prom-web03, df-prom-web04, df-prom-web05, df-prom-web06
+2021-10-14 02:20:11,976 p=119790 u=root n=ansible | TASK [cp in clusters] *************************************************************************************************************************************
+2021-10-14 02:21:12,095 p=119790 u=root n=ansible | changed: [df-prom-web02] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-14 02:21:12,648 p=119790 u=root n=ansible | changed: [df-prom-web01] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-14 02:21:14,608 p=119790 u=root n=ansible | changed: [df-prom-web03] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-14 02:21:14,670 p=119790 u=root n=ansible | changed: [df-prom-web04] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-14 02:21:15,537 p=119790 u=root n=ansible | changed: [df-prom-web05] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-14 02:21:45,104 p=119790 u=root n=ansible | changed: [df-prom-web06] => {"changed": true, "dest": "D:/web/FFOMS", "operation": "folder_copy", "src": "/u01/ansible/doms_qa/files/update_ansible/"}
+2021-10-14 02:21:45,111 p=119790 u=root n=ansible | TASK [Start IIS] ******************************************************************************************************************************************
+2021-10-14 02:21:47,008 p=119790 u=root n=ansible | changed: [df-prom-web02] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-14 02:21:47,028 p=119790 u=root n=ansible | changed: [df-prom-web01] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-14 02:21:47,534 p=119790 u=root n=ansible | changed: [df-prom-web03] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-14 02:21:47,622 p=119790 u=root n=ansible | changed: [df-prom-web04] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-14 02:21:47,789 p=119790 u=root n=ansible | changed: [df-prom-web05] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-14 02:21:49,400 p=119790 u=root n=ansible | changed: [df-prom-web06] => {"can_pause_and_continue": false, "changed": true, "depended_by": [], "dependencies": ["WAS", "HTTP"], "description": "Provides Web connectivity and administration through the Internet Information Services Manager", "desktop_interact": false, "display_name": "World Wide Web Publishing Service", "exists": true, "name": "W3SVC", "path": "C:\\Windows\\system32\\svchost.exe -k iissvcs", "start_mode": "auto", "state": "running", "username": "LocalSystem"}
+2021-10-14 02:21:49,404 p=119790 u=root n=ansible | PLAY RECAP ************************************************************************************************************************************************
+2021-10-14 02:21:49,404 p=119790 u=root n=ansible | df-prom-web01              : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-14 02:21:49,405 p=119790 u=root n=ansible | df-prom-web02              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-14 02:21:49,405 p=119790 u=root n=ansible | df-prom-web03              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-14 02:21:49,405 p=119790 u=root n=ansible | df-prom-web04              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-14 02:21:49,405 p=119790 u=root n=ansible | df-prom-web05              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-14 02:21:49,405 p=119790 u=root n=ansible | df-prom-web06              : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-10-14 02:29:47,375 p=121104 u=root n=ansible | Using /u01/ansible/doms_prod/ansible.cfg as config file
+2021-10-14 02:29:50,124 p=121104 u=root n=ansible | df-prom-web02 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-13_20_19
+Version: 1.8.23.7387
+Commit hash: 22a7181dfcd51ca4398ba8ad20f6ca9a1f356c3c
+
+
+2021-10-14 02:29:50,329 p=121104 u=root n=ansible | df-prom-web01 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-13_20_19
+Version: 1.8.23.7387
+Commit hash: 22a7181dfcd51ca4398ba8ad20f6ca9a1f356c3c
+
+
+2021-10-14 02:29:50,579 p=121104 u=root n=ansible | df-prom-web04 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-13_20_19
+Version: 1.8.23.7387
+Commit hash: 22a7181dfcd51ca4398ba8ad20f6ca9a1f356c3c
+
+
+2021-10-14 02:29:50,689 p=121104 u=root n=ansible | df-prom-web03 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-13_20_19
+Version: 1.8.23.7387
+Commit hash: 22a7181dfcd51ca4398ba8ad20f6ca9a1f356c3c
+
+
+2021-10-14 02:29:51,502 p=121104 u=root n=ansible | df-prom-web05 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-13_20_19
+Version: 1.8.23.7387
+Commit hash: 22a7181dfcd51ca4398ba8ad20f6ca9a1f356c3c
+
+
+2021-10-14 02:29:52,401 p=121104 u=root n=ansible | df-prom-web06 | CHANGED | rc=0 >>
+Compiling Datetime: 2021-10-13_20_19
+Version: 1.8.23.7387
+Commit hash: 22a7181dfcd51ca4398ba8ad20f6ca9a1f356c3c
+
+

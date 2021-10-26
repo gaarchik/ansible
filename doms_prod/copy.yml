@@ -2,7 +2,7 @@
  - name : cp in clusters
    win_copy : 
          src=/u01/ansible/doms_qa/files/update_ansible/
-         dest=E:/web/FFOMS
+         dest=D:/web/FFOMS
 
 
 
