@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+<node name="localhost"
+  description="Rundeck server node"
+  tags="localhost"
+  hostname="localhost"
+  osFamily="unix"
+  username="rundeck"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/foms/foms_rundeck_key"
+  />
+
+        <!-- ETD -->
+
+<node name="ansible"
+  osFamily="unix"
+  hostname="10.255.83.49"
+  tags="etd"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  /> 
+<node name="etd1"
+  osFamily="unix"
+  hostname="10.255.83.30"
+  tags="etd-web01"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  />
+  <node name="etd2"
+  osFamily="unix"
+  hostname="10.255.83.31"
+  tags="etd-web02"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  />
+    <node name="etd3"
+  osFamily="unix"
+  hostname="10.255.83.32"
+  tags="etd-web03"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  />
+    <node name="etd4"
+  osFamily="unix"
+  hostname="10.255.83.33"
+  tags="etd-web04"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  />
+    <node name="etd5"
+  osFamily="unix"
+  hostname="10.255.83.34"
+  tags="etd-web05"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  />
+    <node name="etd6"
+  osFamily="unix"
+  hostname="10.255.83.35"
+  tags="etd-web06"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  />
+    <node name="etd7"
+  osFamily="unix"
+  hostname="10.255.83.36"
+  tags="etd-web07"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  />
+    <node name="etd8"
+  osFamily="unix"
+  hostname="10.255.83.37"
+  tags="etd-web08"
+  username="ansible"
+  ssh-authentication="privateKey"
+  ssh-key-storage-path="keys/etd/key-etd"
+  />
+</project>
